@@ -3,7 +3,7 @@ function processData(input) {
     var arr=input.split("\n");
     var arr1=JSON.parse(arr[0]);
     var arr2=JSON.parse(arr[1]);
-    //var ans=[];
+    //var ans=[];N
     var set2 = new Set(arr1);
     for(var i=0;i<arr2.length;i++)
         {
